@@ -2,15 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.homestay;
+package com.mycompany.homestay.propiedades;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
  * @author The Beast
  */
-import java.util.ArrayList;
-import java.util.List;
-
 public class Propiedad {
     private String id;
     private String ubicacion;
@@ -22,6 +21,12 @@ public class Propiedad {
         this.ubicacion = ubicacion;
         this.anfitrion = anfitrion;
     }
-    public void agregarUnidad(Unidad u) { unidades.add(u); }
-    public List<Unidad> getUnidades() { return unidades; }
+    
+    public void agregarUnidad(Unidad u) { 
+        unidades.add(u); 
+    }
+    
+    public List<Unidad> getUnidades() { 
+        return unidades; 
+    }
 }

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.homestay;
+package com.mycompany.homestay.propiedades;
 
 /**
  *
@@ -22,6 +22,12 @@ public class Unidad {
         this.precio = precio;
         this.estado = "DISPONIBLE";
     }
-    public void cambiarEstado(String nuevoEstado) { this.estado = nuevoEstado; }
-    public String getId() { return id; }
-}
+    
+    public void cambiarEstado(String nuevoEstado) { 
+        this.estado = nuevoEstado; 
+    }
+    
+    public String getId() { 
+        return id; 
+    }
+ }
